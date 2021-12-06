@@ -5,12 +5,14 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
     "autoprefixer": "^10.4.0",
+    "nodemon": "^2.0.15",
     "postcss": "^8.4.4",
     "postcss-cli": "^9.0.2"
   },
   "scripts": {
     "dev": "postcss src/css/styles.css --output public/css/styles.css",
     "prod": "set NODE_ENV=production&&npm run dev",
-    "watch": "npm run dev --watch"
+    "watch": "npm run dev --watch",
+    "dev:css": "nodemon -x npm run dev -w src/styles.css -w tailwind.config.js -w public/index.html "
   }
 }
