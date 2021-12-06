@@ -3,4 +3,34 @@
 .link {
   @apply text-white block p-5 font-bold hover:text-yellow-500
 }
+.link-one {
+  @apply my-4 inline-block border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black transition duration-500
+}
+.link-two {
+  @apply my-4 inline-block rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition duration-500
+}
+.dot {
+  @apply h-3 w-3 bg-blue-600 rounded-full
+}
+.btn-one {
+  @apply border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black transition duration-500
+}
+.btn-two {
+  @apply rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition duration-500
+}
+.btn-strong {
+  @apply inline-block py-3 px-16 text-white border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200
+}
+.card {
+  @apply text-center bg-white 2xl:w-5/6 mx-auto mt-72 rounded-2xl overflow-hidden xl:w-4/5
+}
+.button-card {
+  @apply xl:text-2xl my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200
+}
+.button-card span {
+  @apply w-4 h-4 inline-block border-yellow-300 border-solid border-t-[5px] border-r-[5px] transition-all transform rotate-45
+}
+.arrow {
+  @apply group-hover:border-red-500 xl:group-hover:ml-4
+}
 @tailwind utilities;
