@@ -1,3 +1,6 @@
 @tailwind base;
-/* @tailwind components; */
+@tailwind components;
+.link {
+  @apply text-white block p-5 font-bold hover:text-yellow-500
+}
 @tailwind utilities;
